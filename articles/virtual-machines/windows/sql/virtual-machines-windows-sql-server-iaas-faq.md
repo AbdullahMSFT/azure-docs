@@ -144,7 +144,7 @@ This article provides answers to some of the most common questions about running
 
 1. **How do I change to a new version/edition of the SQL Server in an Azure VM?**
 
-   Customers with Software Assurance are able to do in-place upgrades of their SQL Server running on an Azure VM using the installation media in the Volume Licensing Portal. However, currently, there is no way to change the edition of an instance of SQL Server. Create a new Azure virtual machine with the desired SQL Server edition, and then migrate your databases to the new server using standard [data migration techniques](virtual-machines-windows-migrate-sql.md).
+   Customers with Software Assurance are able to do in-place version upgrades of their SQL Server running on an Azure VM using the installation media in the Volume Licensing Portal. However, currently, there is no way to change the edition of an instance of SQL Server. Create a new Azure virtual machine with the desired SQL Server edition, and then migrate your databases to the new server using standard [data migration techniques](virtual-machines-windows-migrate-sql.md).
 
 1. **How are updates and service packs applied on a SQL Server VM?**
 
